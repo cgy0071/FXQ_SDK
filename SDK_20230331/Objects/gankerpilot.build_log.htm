@@ -1,0 +1,169 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 cgy, 1, LIC=6XJHI-CXBZ7-IMHTY-18EI5-47UGM-XHR93
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+D:\·ÉÐÐÆ÷\pid2\SDK_20230331\GankerPilot.uvprojx
+Project File Date:  03/30/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'GankerPilot_Pro'
+compiling main.c...
+compiling My_task.c...
+User\My_task.c(11): warning:  #177-D: variable "bling_flag" was declared but never referenced
+        static uint8_t bling_flag=1;
+User\My_task.c: 1 warning, 0 errors
+compiling key1.c...
+User\key1.c(50): warning:  #68-D: integer conversion resulted in a change of sign
+        uint16_t key_val=-1;
+User\key1.c: 1 warning, 0 errors
+compiling Bling.c...
+compiling Calibration.c...
+compiling Filter.c...
+compiling Key.c...
+User\Driver\Src\Key.c(276): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==1) {Total_Controller.High_Acce_Control.Kp+=0.1;      }
+User\Driver\Src\Key.c(277): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==2) {Total_Controller.High_Acce_Control.Ki+=0.1;      }
+User\Driver\Src\Key.c(278): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==3) {Total_Controller.High_Acce_Control.Kd+=0.02;     }
+User\Driver\Src\Key.c(284): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==1) {Total_Controller.High_Acce_Control.Kp+=0.1;      }
+User\Driver\Src\Key.c(285): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==2) {Total_Controller.High_Acce_Control.Ki+=0.1;      }
+User\Driver\Src\Key.c(286): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==3) {Total_Controller.High_Acce_Control.Kd+=0.02;     }
+User\Driver\Src\Key.c(292): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==1) {Total_Controller.High_Acce_Control.Kp-=0.1;      }
+User\Driver\Src\Key.c(293): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==2) {Total_Controller.High_Acce_Control.Ki-=0.1;      }
+User\Driver\Src\Key.c(294): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==3) {Total_Controller.High_Acce_Control.Kd-=0.02;     }
+User\Driver\Src\Key.c(300): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==1) {Total_Controller.High_Acce_Control.Kp-=0.1;      }
+User\Driver\Src\Key.c(301): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==2) {Total_Controller.High_Acce_Control.Ki-=0.1;      }
+User\Driver\Src\Key.c(302): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(chioce==3) {Total_Controller.High_Acce_Control.Kd-=0.02;     }
+User\Driver\Src\Key.c: 12 warnings, 0 errors
+compiling mpu6050.c...
+compiling myiic.c...
+compiling OLED.c...
+compiling PID.c...
+compiling PPM.c...
+compiling RC.c...
+compiling Ringbuf.c...
+compiling SINS.c...
+compiling SPL06.c...
+compiling ssd1306.c...
+compiling SYSTEM.c...
+User\Driver\Src\SYSTEM.c(120): warning:  #9-D: nested comment is not allowed
+        /*
+User\Driver\Src\SYSTEM.c: 1 warning, 0 errors
+compiling Time.c...
+compiling Time_Cnt.c...
+compiling US_100.c...
+User\Driver\Src\US_100.c(143): warning:  #177-D: variable "fault_flag" was declared but never referenced
+        static uint8_t fault_flag=0;
+User\Driver\Src\US_100.c: 1 warning, 0 errors
+compiling Usart.c...
+compiling WP_ADC.c...
+compiling wp_flash.c...
+compiling WP_Math.c...
+compiling WP_PWM.c...
+compiling IST8310.c...
+compiling OpticalFlow_LC306.c...
+compiling Soft_I2C.c...
+compiling tfmini.c...
+compiling stflash.c...
+compiling softiic.c...
+compiling GY53L1X.c...
+User\Driver\Src\GY53L1X.c(191): warning:  #177-D: variable "fault_flag" was declared but never referenced
+        static uint8_t fault_flag=0;
+User\Driver\Src\GY53L1X.c: 1 warning, 0 errors
+compiling QMC5883.c...
+compiling CalibrationRoutines.c...
+compiling control_althold.c...
+compiling control_land.c...
+User\Controler\Src\control_land.c(60): warning:  #177-D: variable "step_mapping" was declared but never referenced
+    float step_mapping=0,scale_mapping=0;
+User\Controler\Src\control_land.c(60): warning:  #177-D: variable "scale_mapping" was declared but never referenced
+    float step_mapping=0,scale_mapping=0;
+User\Controler\Src\control_land.c: 2 warnings, 0 errors
+compiling control_poshold.c...
+compiling Earth_Declination.c...
+compiling NamelessCotrun_SDK.c...
+compiling OpticalFlow_Control.c...
+compiling Sensor.c...
+compiling WP_Ctrl.c...
+compiling Temperature_Ctrl.c...
+compiling NamelessCorun_OpticalFlow.c...
+compiling Compass.c...
+compiling NCLink.c...
+compiling ADRC.c...
+compiling Developer_Mode.c...
+compiling Myfile.c...
+linking...
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol cnt (referred from key1.o).
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol opv_mode1 (referred from key1.o).
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol opv_mode2 (referred from key1.o).
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol zuobiao1_x (referred from key1.o).
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol zuobiao1_y (referred from key1.o).
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol zuobiao2_x (referred from key1.o).
+.\Objects\gankerpilot.axf: Error: L6218E: Undefined symbol zuobiao2_y (referred from key1.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 7 error messages.
+".\Objects\gankerpilot.axf" - 7 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/msp432cmsis/latest/exports/TexasInstruments.MSP432P4xx_DFP.3.2.6.pack
+                TexasInstruments::Device:Startup:3.2.2
+                Device Family Pack for Texas Instruments SimpleLink(TM) MSP432 Series
+   * Component: Startup Version: 3.2.2
+
+<h2>Collection of Component include folders:</h2>
+  D:\·ÉÐÐÆ÷\pid2\SDK_20230331\RTE
+  D:\keil\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  D:\keil\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+
+   * Component: TexasInstruments::Device:Startup:3.2.2
+      Include file:  Device\Include\msp_compatibility.h
+      Source file:   Examples\EmptyMain\main.c
+      Source file:   Device\Source\startup_msp432p401r_uvision.s
+      Source file:   Device\Source\system_msp432p401r.c
+      Source file:   Examples\BlinkLED\blinkLED.c
+Target not created.
+</pre>
+</body>
+</html>
